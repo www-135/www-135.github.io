@@ -47,6 +47,18 @@
 					cast : 40,
 					msg : '勇毅武满sir梁沉',
 					thumb : '20230206.png'
+			},
+				{
+					event : '20230210',
+					cast : 112,
+					msg : '彦武天可迪鑫卢毅满梁',
+					thumb : '20230211.png'
+			},
+				{
+					event : '20230213',
+					cast : 60,
+					msg : '冷毅满梁武sir瓦沉松',
+					thumb : '20230213.png'
 			}
 			];
 			var show_all_msg = false;
