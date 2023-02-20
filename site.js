@@ -59,6 +59,18 @@
 					cast : 60,
 					msg : '冷毅满梁武sir瓦沉松',
 					thumb : '20230213.png'
+			},
+				{
+					event : '20230215',
+					cast : 96,
+					msg : '',
+					thumb : '20230215.png'
+			},
+				{
+					event : '20230217',
+					cast : 73.01,
+					msg : '',
+					thumb : '20230217.png'
 			}
 			];
 			var show_all_msg = false;
