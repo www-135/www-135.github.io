@@ -71,6 +71,30 @@
 					cast : 73.01,
 					msg : '',
 					thumb : '20230217.png'
+			},
+				{
+					event : '20230220',
+					cast : 20,
+					msg : '',
+					thumb : '20230220.png'
+			},
+				{
+					event : '20230224',
+					cast : 20,
+					msg : '',
+					thumb : '20230224.png'
+			},
+				{
+					event : '20230227',
+					cast : 20,
+					msg : '',
+					thumb : '20230227.png'
+			},
+				{
+					event : '20230301',
+					cast : 204.32,
+					msg : '',
+					thumb : '20230301.png'
 			}
 			];
 			var show_all_msg = false;
