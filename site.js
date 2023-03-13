@@ -96,6 +96,24 @@
 					msg : '',
 					thumb : '20230301.png'
 			}
+				{
+					event : '20230306',
+					cast : 52,
+					msg : '',
+					thumb : '20230306.png'
+			}
+				{
+					event : '20230308',
+					cast : 72.16,
+					msg : '',
+					thumb : '20230308.png'
+			}
+				{
+					event : '20230310',
+					cast : 60,
+					msg : '',
+					thumb : '20230310.png'
+			}
 			];
 			var show_all_msg = false;
 			var balance = 0;
