@@ -133,7 +133,7 @@
 					thumb : ''
 			},
 			];
-			var show_all_msg = false;
+			var show_all_msg = true;
 			var balance = 0;
 			for (var n = 0; n < datas.length; n++) {
 				var clas = '';
