@@ -6,58 +6,54 @@
 					event : '余额',
 					cast : -567,
 					msg : '卡余1000.0+',
-					showmsg : true,
 					thumb : ''
 			},
 				{
 					event : '新会员',
 					cast : 1780,
 					msg: '8*200+180',
-					showmsg : true,
 					thumb: 'vip4.png'
 			},
 				{
 					event : '充卡',
 					cast : -1000,
-					showmsg : true,
 					msg : '1000送300',
 					thumb : ''
 			},
 				{
 					event : '20230201',
 					cast : 0,
-					msg : '冷满武x',
+					msg : '',
 					thumb : ''
 			},
 				{
 					event : '-------------',
 					cast : -680,
 					msg : 'zjstar*10',
-					showmsg : true,
 					thumb : ''
 			},
 				{
 					event : '20230203',
 					cast : 0,
-					msg : '勇毅梁满瓦',
+					msg : '',
 					thumb : ''
 			},
 				{
 					event : '20230206',
 					cast : 40,
-					msg : '勇毅武满sir梁沉',
+					msg : '',
 					thumb : '20230206.png'
 			},
 				{
 					event : '20230210',
 					cast : 112,
-					msg : '彦武天可迪鑫卢毅满梁',
+					msg : '',
 					thumb : '20230211.png'
 			},
 				{
 					event : '20230213',
 					cast : 60,
-					msg : '冷毅满梁武sir瓦沉松',
+					msg : '',
 					thumb : '20230213.png'
 			},
 				{
