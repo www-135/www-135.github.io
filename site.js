@@ -120,6 +120,18 @@
 					msg : '',
 					thumb : '20230310.png'
 			},
+				{
+					event : '20230313',
+					cast : 136,
+					msg : '',
+					thumb : '20230313.png'
+			},
+				{
+					event : '---------',
+					cast : -680-4*6,
+					msg : '4耐三换中级+10桶中级',
+					thumb : ''
+			},
 			];
 			var show_all_msg = false;
 			var balance = 0;
