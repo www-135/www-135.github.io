@@ -23,7 +23,6 @@
 				{
 					event : '20230201',
 					cast : 0,
-					msg : '',
 					thumb : ''
 			},
 				{
@@ -35,85 +34,71 @@
 				{
 					event : '20230203',
 					cast : 0,
-					msg : '',
 					thumb : ''
 			},
 				{
 					event : '20230206',
 					cast : 40,
-					msg : '',
 					thumb : '20230206.png'
 			},
 				{
 					event : '20230210',
 					cast : 112,
-					msg : '',
 					thumb : '20230211.png'
 			},
 				{
 					event : '20230213',
 					cast : 60,
-					msg : '',
 					thumb : '20230213.png'
 			},
 				{
 					event : '20230215',
 					cast : 96,
-					msg : '',
 					thumb : '20230215.png'
 			},
 				{
 					event : '20230217',
 					cast : 73.01,
-					msg : '',
 					thumb : '20230217.png'
 			},
 				{
 					event : '20230220',
 					cast : 20,
-					msg : '',
 					thumb : '20230220.png'
 			},
 				{
 					event : '20230224',
 					cast : 20,
-					msg : '',
 					thumb : '20230224.png'
 			},
 				{
 					event : '20230227',
 					cast : 20,
-					msg : '',
 					thumb : '20230227.png'
 			},
 				{
 					event : '20230301',
 					cast : 204.32,
-					msg : '',
 					thumb : '20230301.png'
 			},
 				{
 					event : '-------------',
 					cast : -650,
-					msg : '',
 					thumb : '20230306_1'
 			},
 				{
 					event : '20230306',
 					cast : 52,
-					msg : '',
 					thumb : '20230306.png'
 			},
 				{
 					event : '20230308',
 					cast : 72.16,
-					msg : '',
 					thumb : '20230308.png'
 			},
 				{
 					event : '20230310',
 					cast : 60,
-					msg : '',
 					thumb : '20230310.png'
 			},
 				{
@@ -129,7 +114,6 @@
 					thumb : ''
 			},
 			];
-			var show_all_msg = true;
 			var balance = 0;
 			for (var n = 0; n < datas.length; n++) {
 				var clas = '';
@@ -139,14 +123,11 @@
 				var img = '';
 				if (datas[n].thumb.length > 0)
 					img = '<a target="_blank" href="' + datas[n].thumb + '">||||</a>';
-				
-				if(!show_all_msg && !datas[n].showmsg)
+					
+				if(!datas[n].msg)
 					datas[n].msg = '';
 					
-				var color = '';
-				if(!datas[n].showmsg)
-					color = ';color:#f5663a';
-				$("#tb-body").append('<tr><td scope="row">' + datas[n].event + '</td><th' + clas + '>' + datas[n].cast + '</th><td style="font-size:10px' + color + '">' + datas[n].msg + '</td><td>' + img + '</td></tr>');
+				$("#tb-body").append('<tr><td scope="row">' + datas[n].event + '</td><th' + clas + '>' + datas[n].cast + '</th><td style="font-size:10px">' + datas[n].msg + '</td><td>' + img + '</td></tr>');
 				balance += datas[n].cast;
 			}
 
