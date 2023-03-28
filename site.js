@@ -149,6 +149,12 @@
 					msg : '',
 					thumb : '20230324.png'
 			},
+				{
+					event : '20230327',
+					cast : 96,
+					msg : '',
+					thumb : '20230327.png'
+			},
 			];
 			var balance = 0;
 			for (var n = 0; n < datas.length; n++) {
