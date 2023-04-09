@@ -167,6 +167,12 @@
 					msg : '',
 					thumb : '20230331.png'
 			},
+				{
+					event : '20230403',
+					cast : 0,
+					msg : '60每人一碗螺蛳粉',
+					thumb : ''
+			},
 			];
 			var balance = 0;
 			for (var n = 0; n < datas.length; n++) {
